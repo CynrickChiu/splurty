@@ -25,3 +25,16 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('/assets/alexbrush-regular-webfont.eot');
+    src: url('/assets/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('/assets/alexbrush-regular-webfont.woff') format('woff'),
+         url('/assets/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('/assets/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

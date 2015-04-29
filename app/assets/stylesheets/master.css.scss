@@ -53,7 +53,7 @@ hr {
 }
 
 h1 {
-  font-family: 'nobileregular', sans-serif;
+  font-family: 'alex_brushregular', serif;
   font-weight: bold;
   font-size: 48px;
 }
@@ -61,6 +61,11 @@ h1 {
 h2 span {
   color: #dddddd;
   font-family: 'nobileregular', sans-serif;
+}
+
+h2 {
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-style: italic;
 }
 
 .next-quote {
