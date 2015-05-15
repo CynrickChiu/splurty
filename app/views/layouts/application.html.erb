@@ -10,27 +10,27 @@
 <body>
 
   <header>
-  	<div class="col-xs-3">
+    <div class="col-xs-3">
       <%= link_to root_path, :class => 'logo' do %>
-  	    <div class="circle">
-  	  	  <br />
-  	  	  Give me
-  	  	  <br />
-  	  	  another
-  	  	  <br />
-  	  	  quote!
-  	    </div>
+        <div class="circle">
+          <br />
+          Give me
+          <br />
+          another
+          <br />
+          quote!
+        </div>
       <% end %>
-  	</div>
-  	<div class="col-xs-4 hidden-xs slogan">
-  	  Splurting out quotes randomly from the Game of Thrones TV series!
-  	</div>
-  	<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
+    </div>
+    <div class="col-xs-4 hidden-xs slogan">
+      Splurting out quotes randomly from the Game of Thrones TV series!
+    </div>
+    <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
       <!-- Link trigger modal -->
       <%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
       &nbsp;&nbsp;
       <%= link_to 'About', about_path %>
-  	</div>
+    </div>
   </header>
 
   <!-- Modal -->
